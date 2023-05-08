@@ -1,0 +1,12 @@
+package com.design.Design_Patterns.solid.lsp.demo.vehicle.dirty;
+
+public class Bike implements Vehicle {
+    @Override
+    public void startEngine() {
+        throw new UnsupportedOperationException("I don't have an engine!");
+    }
+
+    @Override
+    public void accelerate() {
+    }
+}
